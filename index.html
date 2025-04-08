@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>SGIA</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/sky.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				
+				<section>				
+					<div style="position: relative; z-index: 2; text-align: center; color: white;">
+						<h3 style="font-weight: bold;">SISTEMA DE GESTION INVENTARIO ALMACEN (SGIA)</h3>						
+						<img src="css/img/05.jpg" alt="" data-preview-image>						
+						<p>
+							<small style="font-family: sans-serif; color: black;">Presented by: Dahiana Michel Rave Morales, Juan Manuel Muñoz, <br> Santiago Arboleda and Julián Dario Londoño</small>
+						</p>								
+					</div>								
+				</section>	
+				
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<h2 style="font-weight: bold;">Tabla de contenido</h2>
+					
+					<div class="r-hstack justify-center" style="flex-wrap: wrap; gap: 10px;">
+						<a href="#/3" data-id="box1" data-auto-animate-delay="0" style="background: #999; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px;"></a>
+						<a href="#/4" data-id="box2" data-auto-animate-delay="0.1" style="background: #999; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px;"></a>
+						<a href="#/5" data-id="box3" data-auto-animate-delay="0.2" style="background: #999; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px;"></a>
+						<a href="#/6" data-id="box4" data-auto-animate-delay="0.3" style="background: #999; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px;"></a>
+						<a href="#/7" data-id="box5" data-auto-animate-delay="0.4" style="background: #999; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px;"></a>
+						<a href="#/8" data-id="box6" data-auto-animate-delay="0.5" style="background: #999; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px;"></a>
+						<a href="#/9" data-id="box7" data-auto-animate-delay="0.6" style="background: #999; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px;"></a>
+						<a href="#/10" data-id="box8" data-auto-animate-delay="0.7" style="background: #999; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px;"></a>
+						<a href="#/11" data-id="box9" data-auto-animate-delay="0.8" style="background: #999; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px;"></a>
+					</div>						
+				</section>
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-hstack justify-center" style="flex-wrap: wrap; gap: 10px;">
+						<a href="#/3" data-id="box1" data-auto-animate-delay="0" style="background: cyan; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px; color: #0e0d0d;">Introducción</a>
+						<a href="#/4" data-id="box2" data-auto-animate-delay="0.1" style="background: magenta; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px; color: #0e0d0d;">Abstract</a>
+						<a href="#/5" data-id="box3" data-auto-animate-delay="0.2" style="background: yellow; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px; color: #0e0d0d;">Objetivos</a>
+						<a href="#/6" data-id="box4" data-auto-animate-delay="0.3" style="background: cyan; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px; color: #0e0d0d;">Descripción</a>
+						<a href="#/7" data-id="box5" data-auto-animate-delay="0.4" style="background: magenta; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px; color: #0e0d0d;">Justificación</a>
+						<a href="#/8" data-id="box6" data-auto-animate-delay="0.5" style="background: yellow; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px; color: #0e0d0d;">Antecedentes</a>
+						<a href="#/9" data-id="box7" data-auto-animate-delay="0.6" style="background: cyan; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px; color: #0e0d0d;">Alcance</a>
+						<a href="#/10" data-id="box8" data-auto-animate-delay="0.7" style="background: magenta; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px; color: #0e0d0d;">Arquitectura</a>
+						<a href="#/11" data-id="box9" data-auto-animate-delay="0.8" style="background: yellow; width: 30%; height: 100px; margin: 10px; display: block; text-align: center; line-height: 100px; color: #0e0d0d;">Impactos</a>
+					</div>
+					<h3 style="margin-top: 20px; font-weight: bold;">TABLA DE CONTENIDO</h3>
+				</section>	
+					
+				</section>
+
+				<section>
+					<h3 style="font-weight: bold;">INTRODUCCIÓN</h2>
+					<span style="display: inline-block;" class="fragment fade-up"><p>
+						La gestión manual actual del CPIC genera ineficiencias y errores. Implementar un sistema digital automatizado mejorará el control, la precisión y la transparencia, optimizando la administración de recursos y agilizando los procesos.</p>
+					<img src="css/img/herramientas2.jpeg" alt="express" style="width: 350px; height: 200px; margin-bottom: 10px;" data-preview-image>
+					
+					</span>	
+				
+				</section>
+
+				<section>
+					<h3 style="font-weight: bold;">ABSTRACT</h2>
+					<p font-family="sans-serif; font-size: 12px;">
+						CPIC's current manual inventory management leads to inefficiencies and errors. Implementing a digital automated system will enhance control, accuracy, and transparency, optimizing resource management and streamlining processes.
+						
+					</p>					
+				</section>
+				
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<strong><h2 style="color: #39A900;">OBJETIVOS</h2></strong>
+						<strong><p font-family="sans-serif; font-size: 26px;">OBJETIVO GENERAL:</p></strong>						
+						<p>
+							Desarrollar un sistema de inventario automatizado en el almacén del CPIC del Sena Regional Caldas que permita tener un control en tiempo real de los niveles de stock, así  como de los procesos de préstamos y devoluciones, mejorando la eficiencia en la gestión del suministro de los elementos requeridos en el CPIC
+						</p>				
+												
+					</section>
+					<section>
+						<strong><p font-family="sans-serif; font-size: 26px;">OBJETIVOS ESPECIFICOS:</p></strong>
+						<p><strong>1. </strong> Identificar los requisitos funcionales y no funcionales del sistema de inventario automatizado, incluyendo la recopilación de los procesos actuales, las necesidades del personal del almacén y los usuarios, con el fin de establecer una base sólida para el diseño y desarrollo del sistema.</p>
+					</section>
+					<section>
+						<strong><p font-family="sans-serif; font-size: 26px;">OBJETIVOS ESPECIFICOS:</p></strong>
+						<p><strong>2. </strong>Diseñar un sistema con una interfaz intuitiva que proporciona acceso a información en tiempo real sobre inventario, préstamos y devoluciones, asegurando una gestión eficiente de suministros en el CPIC</p>
+					</section>
+					<section>
+						<strong><p font-family="sans-serif; font-size: 26px;">OBJETIVOS ESPECIFICOS:</p></strong>
+						<p><strong>3. </strong>Implementar una solución de seguimiento de inventario en tiempo real que permita un control preciso de los niveles de stock, agilice los procesos de préstamos y devoluciones en el almacén del CPIC del Sena Regional Caldas.</p>
+					</section>
+				</section>
+
+				<section>
+					<h3 style="font-weight: bold;">Descripción Del Proyecto</h2>
+					<p font-family="sans-serif; font-size: 10px;">						
+					Este proyecto transformará la gestión de inventarios y préstamos en el CPIC del SENA Regional Caldas con un sistema automatizado. Al implementar software especializado, se optimizarán tiempos, mejorará el control en tiempo real y se reducirán errores, garantizando precisión, agilidad y eficiencia. Aplicando el ciclo PHVA, se lograrán mejoras continuas y resultados de alto impacto.
+					</p>
+
+				</section>
+
+				<section>
+					<h3 style="font-weight: bold;">JUSTIFICACIÓN</h2>
+					<p font-family="sans-serif; font-size: 10px;">						
+						La gestión manual de inventarios en el CPIC ha generado ineficiencias y errores. Un software especializado automatizará los procesos, mejorando la precisión, reduciendo errores y optimizando la eficiencia. Esto garantizará un control ágil, transparente y adaptable a las crecientes demandas del CPIC.
+					</p>
+				</section>
+
+				<section>
+					<div>
+						<h3 style="color: #39A900; font-family: sans-serif;">ANTECEDENTES</h3>
+					</div>
+					<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; max-width: 1200px; margin: 0 auto; background: white; padding: 8px; border-radius: 8px; position: relative; z-index: 1;">
+						<!-- Primer elemento -->
+						<div style="text-align: center; max-width: 300px;">
+							<img src="css/img/Imagen8.png" alt="Antecedente 1" style="width: 150px; height: 150px; margin-bottom: 20px;">
+							<h3 style="color: #39A900; font-size: 30px; font-family: sans-serif;">Pasado</h3>
+							<p style="font-size: 16px; color: #0e0d0d;">
+								Segura Vitor (2018): Investigación sobre la Implementación de un SGI Para Control De Bienes En Instituciones Educativas en la U. Peruana Los Andes. Aporta un marco de referencia relevante para comparar enfoques y resultados en la implementación de sistemas de gestión de inventarios en I.E.
+							</p>
+						</div>
+				
+						<!-- Segundo elemento -->
+						<div style="text-align: center; max-width: 300px;">
+							<img src="css/img/Imagen9.png" alt="Antecedente 2" style="width: 150px; height: 150px; margin-bottom: 20px;">
+							<h3 style="color: #1D98F0; font-size: 30px; font-family: sans-serif;">2018 - 2020</h3>
+							<p style="font-size: 16px; color: #0e0d0d;">
+								López Heredia & Domínguez De la Cruz (2018): Desarrollaron un SIGI para optimizar los procesos en la U. Nacional del Santa - Chimbote. Resultados clave incluyen mejoras en el control del inventario, satisfacción y efectividad de los trabajadores, con un ahorro del 41% en el tiempo operativo.
+							</p>
+						</div>
+				
+						<!-- Tercer elemento -->
+						<div style="text-align: center; max-width: 300px;">
+							<img src="css/img/antecedente3.png" alt="Antecedente 3" style="width: 150px; height: 150px; margin-bottom: 20px;">
+							<h3 style="color: #39A900; font-size: 30px; font-family: sans-serif;">2021 - Presente</h3>
+							<p style="font-size: 16px; color: #0e0d0d;">
+								Garzón desarrolló un prototipo de software para optimizar el control de inventarios en la empresa Ke-Nice’s, mejorando la eficiencia frente a desequilibrios en su inventario. Este enfoque comparte objetivos similares con la investigación actual, enriqueciendo el desarrollo del sistema propuesto.
+							</p>
+						</div>
+					</div>						
+				</section>			
+
+				<section data-background="css/img/alcance.png" data-background-size="cover" data-background-repeat="no-repeat" data-background-position="center" data-background-color="#000000">
+					<!-- Imagen de fondo -->
+					
+				
+					<!-- Contenido del texto -->
+					<div style="position: relative; z-index: 2; padding: 20px; background: rgba(255, 255, 255, 0.8); border-radius: 10px; display: inline-block;">
+						<h3 style="color: #39A900; font-family: sans-serif;">ALCANCE</h3>
+						<p style="font-family: sans-serif; font-size: 36px; color: #000;">
+							El sistema estará diseñado para adaptarse a las necesidades del SENA, siendo escalable para futuras ampliaciones. Busca transformar la gestión logística, optimizando la disponibilidad de herramientas y materiales, mejorando la experiencia educativa de aprendices e instructores en todos los Centros de la Regional.
+						</p>
+					</div>
+				</section>
+
+				
+				<section>
+					<section>
+					<div>
+						<h4 style="color: #39A900; font-family: sans-serif;">ARQUITECTURA Y TECNOLOGÍAS UTILIZADAS</h4>
+					</div>
+					
+					<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; max-width: 2500px; margin: 0 auto; background: white; padding: 8px; border-radius: 8px; position: relative; z-index: 1;">
+						<!-- Primer elemento -->
+						<div style="text-align: center; max-width: 300px;">
+							<img src="css/img/framework.png" alt="Antecedente 1" style="width: 100px; height: 100px; margin-bottom: 20px;">
+							<h3 style="color: #39A900; font-size: 30px; font-family: sans-serif;">arquitectura y backend</h3>
+							<img src="css/img/api.png" alt="express" style="width: 120px; height: 120px; margin-bottom: 20px;" data-preview-image> 
+							<img src="css/img/express.jpg" alt="express" style="width: 100px; height: 100px; margin-bottom: 20px;" data-preview-image>
+						</div>
+				
+						<!-- Segundo elemento -->
+						<div style="text-align: center; max-width: 300px;">
+							<img src="css/img/basededatos.png" alt="Antecedente 2" style="width: 100px; height: 100px; margin-bottom: 20px;">
+							<h3 style="color: #1D98F0; font-size: 30px; font-family: sans-serif;">base de datos</h3>
+							<img src="css/img/postgres.png" alt="postgres" style="width: 140px; height: 140px; margin-bottom: 20px;" data-preview-image>
+							<img src="css/img/sequelize.png" alt="postgres" style="width: 140px; height: 140px; margin-bottom: 20px;" data-preview-image>
+						</div>
+						</div>
+					</section>
+					
+					<section>
+						<div>
+							<h4 style="color: #39A900; font-family: sans-serif;">ARQUITECTURA Y TECNOLOGÍAS UTILIZADAS</h4>
+						</div>
+						<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; max-width: 2500px; margin: 0 auto; background: white; padding: 8px; border-radius: 8px; position: relative; z-index: 1;">
+						<!-- Tercer elemento -->
+						<div style="text-align: center; max-width: 300px;">
+							<img src="css/img/frontend.png" alt="Antecedente 3" style="width: 100px; height: 100px; margin-bottom: 20px;">
+							<h3 style="color: #39A900; font-size: 30px; font-family: sans-serif;">frontend</h3>
+							<img src="css/img/angular.png" alt="angular" style="width: 100px; height: 100px; margin-bottom: 20px;" data-preview-image>
+							<img src="css/img/taiwlind.png" alt="taiwlind" style="width: 130px; height: 130px; margin-bottom: 20px;" data-preview-image>
+							<img src="css/img/ts.png" alt="taiwlind" style="width: 150px; height: 150px; margin-bottom: 20px;" data-preview-image>
+							<img src="css/img/sass.png" alt="taiwlind" style="width: 120px; height: 120px; margin-bottom: 20px;" data-preview-image>
+						</div>
+				
+						<!-- Cuarto elemento -->
+						<div style="text-align: center; max-width: 300px;">
+							<img src="css/img/gestion.png" alt="Antecedente 3" style="width: 100px; height: 100px; margin-bottom: 20px;">
+							<h3 style="color: #39A900; font-size: 30px; font-family: sans-serif;">gestión del proyecto</h3>
+							<img src="css/img/trello.png" alt="trello" style="width: 160px; height: 160px; margin-bottom: 10px;" data-preview-image>
+							<img src="css/img/SCRUM.png" alt="trello" style="width: 150px; height: 150px; margin-bottom: 10px;" data-preview-image>
+						</div>
+					</section>								
+					<section>
+						<img src="css/img/metodologia.png" alt="trello" style="width: 1000px; height: 600px; margin-bottom: 10px;">
+					</section>
+					<section>
+						<img src="css/img/APIREST.png" alt="trello" style="width: 1000px; height: 600px; margin-bottom: 10px;">
+					</section>
+					</section>
+				</section>
+
+
+				<section>
+					<section>
+						<div>
+							<span style="display: inline-block;" class="fragment fade-right"><h4 style="font-family: 'Roboto', sans-serif; font-size: 30px; font-weight: bold; text-align: center;">
+								Este sistema optimiza la eficiencia del CPIC, generando beneficios ambientales, tecnológicos, sociales y económicos. contribuyendo al desarrollo sostenible y la mejora educativa
+							</h4></span>
+						</div>						
+							<br>										
+						<div>
+							<strong><h3 style="color: #39A900;">IMPACTO AMBIENTAL</h3></strong>	
+							<ul>
+								<span style="display: inline-block;" class="fragment fade-right"><li>Reducción del uso de papel</li></span>
+								<span style="display: inline-block;" class="fragment fade-left"><li>Optimización del uso de recursos</li></span>
+								<span style="display: inline-block;" class="fragment fade-right"><li>Reducción de la huella de carbono</li></span>							
+							</ul>							
+						</div>		
+						<img src="css/img/ambiental.jpg" alt="trello" style="width: 300px; height: 200px; margin-bottom: 10px;" data-preview-image>		
+												
+					</section>
+					<section>
+						<strong><h3 style="color: #39A900;">IMPACTO TECNOLÓGICO</h3></strong>												
+						<p>
+							<ul>
+								<span style="display: inline-block;" class="fragment fade-up"><li>Innovación en la gestión de inventarios</li></span>
+								<span style="display: inline-block;" class="fragment fade-down"><li>Fortalecimiento de infraestructuras tecnológicas</li></span>
+								<span style="display: inline-block;" class="fragment fade-down"><li>Fomento de la digitalización y automatización</li></span>								
+							</ul>
+						</p>
+						<img src="css/img/tecnologico.jpg" alt="trello" style="width: 300px; height: 200px; margin-bottom: 10px; border-radius: 10px" data-preview-image>		
+					</section>
+					<section>
+						<strong><h3 style="color: #39A900;">IMPACTO SOCIAL</h3></strong>												
+						<p>
+							<ul>
+								<span style="display: inline-block;" class="fragment fade-right"><li>Mejora en la eficiencia y servicio</li></span>
+								<span style="display: inline-block;" class="fragment fade-left"><li>Acceso más rápido a los recursos</li></span>
+								<span style="display: inline-block;" class="fragment fade-left"><li>Capacitación del personal </li>	</span>							
+							</ul>
+						</p>
+						<img src="css/img/social.jpg" alt="trello" style="width: 450px; height: 300px; margin-bottom: 10px; border-radius: 10px" data-preview-image>		
+					</section>
+					<section>
+						<strong><h3 style="color: #39A900;">IMPACTO ECONÓMICO</h3></strong>												
+						<p>
+							<ul>
+								<span style="display: inline-block;" class="fragment fade-down"><li>educción de costos operativos</li></span>
+								<span style="display: inline-block;" class="fragment fade-up"><li>Optimización de recursos financieros</li></span>
+								<span style="display: inline-block;" class="fragment fade-down"><li>Mejora en la eficiencia logística</li></span>							
+							</ul>
+							<img src="css/img/herramientas.jpeg" alt="trello" style="width: 450px; height: 300px; margin-bottom: 20px; border-radius: 10px;" data-preview-image>		
+						</p>
+					</section>
+				</section>
+
+				<section data-transition="slide" data-background="#003366" data-background-transition="zoom">
+					<h2>GRACIAS</h2>
+					<p>
+						¡Gracias por su atención! 
+					</p>
+					<img src="css/img/logosgia.png" alt="trello" style="width: 300px; height: 300px; margin-bottom: 20px; border-radius: 10px;" data-preview-image>		
+					
+				</section>
+				
+			</div>
+			<!-- /.slides -->			
+
+
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+				
+				transitionSpeed: 'slow', // default/fast/slow
+				backgroundTransition: 'convex', // none/fade/slide/convex/concave/zoom
+				
+				// Optional reveal.js plugins
+
+
+
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
